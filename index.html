@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaik Azeeza Farhana - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="profile">
+            <span class="name">Shaik Azeeza Farhana</span>
+        </div>
+        <nav>
+        <a href="index.html" class="current">Home <i class="fas fa-home"></i></a>
+        <a href="achievements.html">Achievements<i class="fas fa-trophy"></i></a>
+        <a href="projects.html">Projects <i class="fas fa-code"></i></a>
+        <a href="certifications.html"> Certifications<i class="fas fa-award"></i></a>
+        <a href="contact.html">Contact <i class="fas fa-envelope"></i></a>
+        </nav>
+    </header>
+
+
+<section class="intro" style="position: relative; background: white; overflow: hidden;">
+    <!-- Matrix effect canvas in the background -->
+    <canvas id="matrix-intro" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0;"></canvas>
+    <!-- Main content -->
+     
+    <div class="intro-container" style="position: relative; z-index: 1; padding: 20px; color: black;">
+        <img src="Images/bushu-show.jpg" alt="Shaik Azeeza Farhana" class="profile-img" />
+        <div class="intro-text">
+            <h1>Hello, I'm <span class="highlight">Shaik Azeeza Farhana</span></h1>
+            <p>
+                I'm a final year Computer Science and Engineering student with a specialization in Cybersecurity. I have a strong passion for Ethical Hacking and securing digital systems through proactive defense and vulnerability assessment.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Education Section -->
+<section class="education ed-bg">
+
+    <div class="education-container">
+        <h2>Education</h2>
+        <div class="education-timeline">
+
+            <div class="education-card">
+                <img src="images/rcee.jpg" alt="Ramachandra College Logo" class="education-img" />
+                <div class="education-content">
+                    <div class="education-period">Sep 2022 - May 2026</div>
+                    <div class="education-details">
+                        <h3>Ramachandra College of Engineering, Eluru</h3>
+                        <p class="education-program">Bachelor of Technology in Computer Science Engineering, Specialization in Cyber Security</p>
+                        <p class="education-grade">GPA: <span class="highlight">8.9</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <img src="images/inter college.jpg" alt="Sri Chaitanya Junior College Logo" class="education-img" />
+                <div class="education-content">
+                    <div class="education-period">Jun 2020 - May 2022</div>
+                    <div class="education-details">
+                        <h3>Sri Chaitanya Junior College, Eluru</h3>
+                        <p class="education-program">Senior Secondary in Mathematics, Physics and Chemistry</p>
+                        <p class="education-grade">GPA: <span class="highlight">9.4</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <img src="images/school.jpg" alt="Sri Suresh Chandra Bahuguna School Logo" class="education-img" />
+                <div class="education-content">
+                    <div class="education-period">Jun 2019 - Apr 2020</div>
+                    <div class="education-details">
+                        <h3>Sri Suresh Chandra Bahuguna Police English Medium School, Eluru</h3>
+                        <p class="education-program">Secondary School</p>
+                        <p class="education-grade">GPA: <span class="highlight">9.6</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills">
+  <div class="skills-container">
+   <center> <h2>Skills</h2> </center>
+
+    <!-- Technical Skills -->
+    <div class="skills-category">
+      <h3>Technical Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-python skill-icon"></i>
+          <span>Python</span>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-database skill-icon"></i>
+          <span>SQL</span>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-user-shield skill-icon"></i>
+          <span>Ethical Hacking</span>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-shield-alt skill-icon"></i>
+          <span>Cybersecurity</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Operating Systems -->
+    <div class="skills-category">
+      <h3>Operating Systems</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-linux skill-icon"></i>
+          <span>Linux</span>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-terminal skill-icon"></i>
+          <span>Kali Linux</span>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-terminal skill-icon"></i>
+          <span>Parrot OS</span>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-windows skill-icon"></i>
+          <span>Windows</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Web Technologies -->
+    <div class="skills-category">
+      <h3>Web Technologies</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5 tech-skill-icon"></i>
+          <span>HTML5</span>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-css3-alt tech-skill-icon"></i>
+          <span>CSS3</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+ <script>
+    const canvas = document.getElementById("matrix-intro");
+    const ctx = canvas.getContext("2d");
+
+    function resizeCanvas() {
+        canvas.width = canvas.clientWidth;
+        canvas.height = canvas.clientHeight;
+    }
+
+    resizeCanvas();
+
+    window.addEventListener("resize", () => {
+        resizeCanvas();
+        updateDrops();
+    });
+
+    const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()_+-=[]{}|;:,.<>?/!~";
+    const fontSize = 16;
+    let columns = Math.floor(canvas.width / fontSize);
+    // Initialize drops at random heights
+    let drops = Array(columns).fill(0).map(() => Math.floor(Math.random() * canvas.height / fontSize));
+
+    function updateDrops() {
+        columns = Math.floor(canvas.width / fontSize);
+        drops = Array(columns).fill(0).map(() => Math.floor(Math.random() * canvas.height / fontSize));
+    }
+
+   function createTextGradient() {
+    const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
+    gradient.addColorStop(0, "#03001e");      // Dark left edge
+    gradient.addColorStop(0.5, "#ec38bc");    // Light center
+    gradient.addColorStop(1, "#03001e");      // Dark right edge
+    return gradient;
+}
+
+
+    function draw() {
+        // White translucent background for trailing effect
+        ctx.fillStyle = "rgba(255, 255, 255, 0.15)";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.font = fontSize + "px monospace";
+
+        const gradient = createTextGradient();
+        ctx.fillStyle = gradient;
+
+        for (let i = 0; i < drops.length; i++) {
+            const text = characters.charAt(Math.floor(Math.random() * characters.length));
+            ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+            if (drops[i] * fontSize > canvas.height && Math.random() > 0.95) {
+                drops[i] = 0;
+            }
+
+            drops[i] += 0.5;
+        }
+    }
+
+    setInterval(draw, 50);
+</script>
+
+
+
+</body>
+</html>
